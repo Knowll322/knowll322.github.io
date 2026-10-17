@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bot & Automation Developer — Jasa Bot Telegram, Monitor Harga, Scraper Data</title>
+<meta name="description" content="Jasa pembuatan bot Telegram custom, monitor stok/harga real-time, dan web scraper Python. Harga mulai Rp350rb. Konsultasi gratis.">
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #181b24;
+    --accent: #4f8cff;
+    --accent2: #34d399;
+    --text: #e8eaf0;
+    --muted: #9aa3b5;
+    --border: #262b38;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  header {
+    padding: 64px 0 48px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(79,140,255,.12);
+    color: var(--accent);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 40px; line-height: 1.2; margin-bottom: 16px; }
+  h1 span { color: var(--accent); }
+  .subtitle { color: var(--muted); font-size: 18px; max-width: 620px; margin: 0 auto 28px; }
+  .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    transition: transform .15s, opacity .15s;
+  }
+  .btn:hover { transform: translateY(-2px); opacity: .92; }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+
+  section { padding: 56px 0; border-bottom: 1px solid var(--border); }
+  h2 { font-size: 28px; margin-bottom: 28px; text-align: center; }
+  h2 small { display: block; color: var(--muted); font-size: 15px; font-weight: 400; margin-top: 6px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 26px;
+  }
+  .card h3 { font-size: 19px; margin-bottom: 10px; }
+  .card .price { color: var(--accent2); font-weight: 700; font-size: 15px; margin: 10px 0 14px; }
+  .card ul { list-style: none; }
+  .card li { padding: 5px 0; color: var(--muted); font-size: 14.5px; }
+  .card li::before { content: "✓ "; color: var(--accent2); font-weight: 700; }
+  .card .repo {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent);
+  }
+
+  .proof {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    text-align: center;
+  }
+  .proof-item { padding: 20px; }
+  .proof-item .num { font-size: 32px; font-weight: 800; color: var(--accent); }
+  .proof-item .label { color: var(--muted); font-size: 14px; }
+
+  .steps { counter-reset: step; display: grid; gap: 16px; }
+  .step {
+    display: flex; gap: 16px; align-items: flex-start;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px;
+  }
+  .step::before {
+    counter-increment: step;
+    content: counter(step);
+    flex-shrink: 0;
+    width: 34px; height: 34px;
+    background: var(--accent); color: #fff;
+    border-radius: 50%;
+    display: grid; place-items: center;
+    font-weight: 800; font-size: 15px;
+  }
+  .step h4 { font-size: 16px; margin-bottom: 4px; }
+  .step p { color: var(--muted); font-size: 14.5px; }
+
+  footer {
+    padding: 40px 0 56px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 640px) {
+    h1 { font-size: 30px; }
+    header { padding: 44px 0 36px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="badge">Python Developer • Bot &amp; Automation</div>
+    <h1>Bot Telegram, Monitor Harga,<br>dan Scraper — <span>siap pakai</span></h1>
+    <p class="subtitle">Saya bangun otomatisasi yang benar-benar jalan: bot bisnis custom, pantau stok/harga 24/7, ambil data website bersih. Kode rapi, deploy sampai live, dokumentasi lengkap.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://t.me/USERNAME_ANDA">Chat Telegram — Konsultasi Gratis</a>
+      <a class="btn btn-ghost" href="#harga">Lihat Harga</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="proof">
+      <div class="proof-item"><div class="num">34</div><div class="label">unit test lulus</div></div>
+      <div class="proof-item"><div class="num">24/7</div><div class="label">monitoring tanpa henti</div></div>
+      <div class="proof-item"><div class="num">2–7</div><div class="label">hari pengerjaan rata-rata</div></div>
+      <div class="proof-item"><div class="num">100%</div><div class="label">source code diserahkan</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="harga">
+  <div class="container">
+    <h2>Layanan &amp; Harga <small>Mulai dari — final setelah konsultasi scope</small></h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🤖 Bot Telegram Custom</h3>
+        <div class="price">Mulai Rp350.000</div>
+        <ul>
+          <li>Auto-reply FAQ &amp; customer service</li>
+          <li>Reminder &amp; notifikasi terjadwal</li>
+          <li>Broadcast aman (rate-limited)</li>
+          <li>Integrasi API &amp; Google Sheets</li>
+          <li>Deploy + dokumentasi</li>
+        </ul>
+        <a class="repo" href="https://github.com/Knowll322/telegram-bot-kit">Lihat kode portofolio →</a>
+      </div>
+      <div class="card">
+        <h3>📉 Monitor Stok &amp; Harga</h3>
+        <div class="price">Mulai Rp500.000</div>
+        <ul>
+          <li>Pantau 24/7 real-time</li>
+          <li>Notifikasi Telegram instan</li>
+          <li>Anti-spam (dedup otomatis)</li>
+          <li>Multi-target, anti-pola</li>
+          <li>Jalan di VPS atau lokal</li>
+        </ul>
+        <a class="repo" href="https://github.com/Knowll322/stock-monitor-kit">Lihat kode portofolio →</a>
+      </div>
+      <div class="card">
+        <h3>🕸️ Web Scraper Data</h3>
+        <div class="price">Mulai Rp400.000</div>
+        <ul>
+          <li>Data bersih → Excel/CSV</li>
+          <li>Situs modern ber-JS (Playwright)</li>
+          <li>Paginasi &amp; multi-halaman</li>
+          <li>Cleaning + deduplikasi</li>
+          <li>Opsional: pipeline ke database</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Cara Kerja <small>Transparan, tanpa biaya tersembunyi</small></h2>
+    <div class="steps">
+      <div class="step">
+        <div><h4>Konsultasi gratis</h4><p>Ceritakan kebutuhan Anda. Saya balas dengan estimasi harga &amp; waktu — tanpa komitmen.</p></div>
+      </div>
+      <div class="step">
+        <div><h4>Deal &amp; DP 50%</h4><p>Scope, harga, dan deadline disepakati tertulis. DP di muka, pelunasan setelah Anda approve hasil.</p></div>
+      </div>
+      <div class="step">
+        <div><h4>Pengerjaan &amp; update</h4><p>Progres dikabari berkala. Revisi sesuai paket yang disepakati.</p></div>
+      </div>
+      <div class="step">
+        <div><h4>Serah terima</h4><p>Source code, dokumentasi, dan bantuan setup diserahkan setelah pelunasan.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="text-align:center;">
+    <h2>Siap mulai?</h2>
+    <p class="subtitle" style="margin-bottom:24px;">Chat langsung — biasanya dibalas dalam beberapa jam.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://t.me/USERNAME_ANDA">Telegram: @USERNAME_ANDA</a>
+      <a class="btn btn-ghost" href="https://wa.me/62XXXXXXXXXXX">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>Portofolio: <a href="https://github.com/Knowll322">github.com/Knowll322</a></p>
+    <p style="margin-top:6px;">© 2026 — Bot &amp; Automation Developer</p>
+  </div>
+</footer>
+
+</body>
+</html>
